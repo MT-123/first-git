@@ -61,5 +61,16 @@ git rm --cached new.txt
 git rm --cached -r folder/
 # remove the folder at stage(local folder is intact)
 
+git branch
+# check out current branch
+git branch -a
+# checkout all branches
 
+git branch new_branch_name
+# create a new branch
 
+git checkout branch_name
+# switch to the branch
+
+git checkout -b "new_branch_name"
+# create and switch to the branch
