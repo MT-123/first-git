@@ -38,6 +38,3 @@ git remote add origin git@github.com:MT-123/myNewRepo.git
 git branch -M main
 git push -u origin main
 # push the files to repository at github
-
-git push --set-upstream origin new_branch_name
-# push with a new branch
