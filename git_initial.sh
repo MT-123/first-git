@@ -75,5 +75,5 @@ git checkout branch_name
 git checkout -b new_branch_name
 # create and switch to the branch
 
-git branch -D branch_name
+git branch -d branch_name
 # delete the branch
