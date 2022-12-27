@@ -33,8 +33,24 @@ pbcopy < ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 # test the SSH connection to github
 
-# create a repository at github and use following command
+# create a repository at github and then use following command
 git remote add origin git@github.com:MT-123/myNewRepo.git
+# "origin" will be the name for this remote repository
 git branch -M main
 git push -u origin main
 # push the files to repository at github
+
+
+# === initial a new folder to github===
+# 1. first go to github and create a repository and nothing inside
+# 2. (at local)create a .gitignore file to exclude the files no need to be tracked
+#   like ".DS_Store" and packages folder like "node_modules/"
+
+# cd to the root folder of the project
+git init -b main
+git add . && git commit -m "initial commit"
+# initial and commit all files
+
+git remote add github git@github.com:MT-123/web_dev.git
+# name the remote repo as github
+git push -u github main
