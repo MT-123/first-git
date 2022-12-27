@@ -1,7 +1,7 @@
 git push origin local_branch
 # push the local branch to remote repo named orgin
 
-git push origin local_branch:remo_branch
+git push origin local_branch:remote_branch
 # (if local and remote branch names are different)
 # push the local branch to remote branch
 
