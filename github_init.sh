@@ -54,3 +54,4 @@ git add . && git commit -m "initial commit"
 git remote add github git@github.com:MT-123/web_dev.git
 # name the remote repo as github
 git push -u github main
+# push the local main branch to the remote repo
