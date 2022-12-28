@@ -21,7 +21,7 @@ touch ~/.ssh/config
 #   UseKeychain yes
 #   IdentityFile ~/.ssh/id_ed25519
 
-ssh-add ~/.ssh/id_ed25519 
+ssh-add ~/.ssh/id_ed25519
 # add ssh private key to the agent
 
 pbcopy < ~/.ssh/id_ed25519.pub

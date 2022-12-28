@@ -19,7 +19,7 @@ git ls-files
 # show staged files
 
 # for a renamed file
-git add file.txt renameFile.txt 
+git add file.txt renameFile.txt
 # both original and renamed file name required to be added
 
 # rename and stage the file at once

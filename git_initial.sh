@@ -10,7 +10,7 @@ git config --global user.email superchocolatelover@gmail.com
 git config --global core.editor "code --wait"
 # set the text editor to vs code
 
-git config --global -e  
+git config --global -e
 # edit the config file
 
 git config --global core.autocrlf input
