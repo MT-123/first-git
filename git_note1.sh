@@ -10,7 +10,7 @@ git add *.sh
 # stage all the files with extension .sh
 
 git add -p
-# stage all the files changed
+# stage all the files changed(but will not work on new files)
 # for answering
 # y - stage this hunk
 # n - do not stage this hunk
@@ -67,11 +67,13 @@ git merge branch_name
 
 git rebase branch_name
 # rebase the branch
-# no recommended for rebase main branch
+# no recommended for using on public branch
 
-git log -
+git log
 # show the commit log
+
+git log --all --decorate --oneline --graph
+# show the git branch history graph
 
 git show 4aacd72
 # show the commit detail with hash id
-
