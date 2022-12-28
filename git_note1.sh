@@ -64,3 +64,14 @@ git branch -d branch_name
 
 git merge branch_name
 # merge the branch to current branch
+
+git rebase branch_name
+# rebase the branch
+# no recommended for rebase main branch
+
+git log -
+# show the commit log
+
+git show 4aacd72
+# show the commit detail with hash id
+
