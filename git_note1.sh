@@ -4,10 +4,18 @@ git status -s
 # show status in shorthand way
 
 git add file1.txt
-# stage the file
+# stage the file or the folder
 
-git add *.sh 
+git add *.sh
 # stage all the files with extension .sh
+
+git add -p
+# stage all the files changed
+# for answering
+# y - stage this hunk
+# n - do not stage this hunk
+# q - quit; do not stage this hunk nor any of the remaining ones
+# a - stage this hunk and all later hunks in the file
 
 git commit
 # open the commit file and then commit
@@ -56,4 +64,3 @@ git branch -d branch_name
 
 git merge branch_name
 # merge the branch to current branch
-
