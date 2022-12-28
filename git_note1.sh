@@ -9,13 +9,8 @@ git add file1.txt
 git add *.sh
 # stage all the files with extension .sh
 
-git add -p
-# stage all the files changed(but will not work on new files)
-# for answering
-# y - stage this hunk
-# n - do not stage this hunk
-# q - quit; do not stage this hunk nor any of the remaining ones
-# a - stage this hunk and all later hunks in the file
+git add -A
+# stage all the changed and new files
 
 git commit
 # open the commit file and then commit
@@ -34,9 +29,9 @@ git add file.txt renameFile.txt
 git mv file.txt renameFile.txt
 
 echo "filename.txt" >> .gitignore
-# create ignore list file
-# list the files or filders to .gitignore to be ignored
-# use "/" for a folder, like "notTrack/"
+# create a .gitignore file to list the files no need to be tracked
+#   like ".DS_Store" and packages folder like "node_modules/"
+# for template, go to http://gitignore.io/
 
 
 git rm --cached new.txt

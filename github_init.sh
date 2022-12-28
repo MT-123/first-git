@@ -34,7 +34,6 @@ ssh -T git@github.com
 # test the SSH connection to github
 
 
-
 # === create brand new project to github===
 # create a repository at github and then use following command
 git remote add origin git@github.com:MT-123/myNewRepo.git
@@ -46,8 +45,7 @@ git push -u origin main
 
 # === move existing project to github===
 # 1. first go to github and create a repository and nothing inside
-# 2. (at local)create a .gitignore file to exclude the files no need to be tracked
-#   like ".DS_Store" and packages folder like "node_modules/"
+# 2. (at local)create a .gitignore file
 
 # cd to the root folder of the project
 git init -b main
