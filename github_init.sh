@@ -56,3 +56,8 @@ git remote add github git@github.com:MT-123/web_dev.git
 # name the remote repo as github
 git push -u github main
 # push the local main branch to the remote repo github
+
+# === pull a project from github===
+# 1. get the ssh link from github
+# 2. cd to the folder for the project
+git clone git@github.com:Colt/YelpCamp.git
