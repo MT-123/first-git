@@ -39,8 +39,9 @@ ssh -T git@github.com
 git remote add origin git@github.com:MT-123/myNewRepo.git
 # "origin" will be the name for this remote repository
 git branch -M main
+# rename current branch as "main"
 git push -u origin main
-# push the files to repository at github
+# push the local branch main to the remote repository
 
 
 # === move existing project to github===
