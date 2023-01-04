@@ -11,4 +11,4 @@ git diff branch..branch2
 # compare the difference of the 2 branches
 git diff branch1 branch2
 # this does the same work.
-# diff can also work on commit comparison with commit id 
+# diff can also work on commit comparison with commit id
