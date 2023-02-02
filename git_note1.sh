@@ -3,6 +3,14 @@ git status
 git status -s
 # show status in shorthand way
 
+echo "filename.txt" >> .gitignore
+# create a .gitignore file to exclude the files and folder from git tracking
+# usually they are environmental variables(i.e. .env file) and OS system files(e.g. .DS_Store file)
+# and the modules folder(e.g. npm modules)
+# do it before first git add
+# for template, go to http://gitignore.io/
+
+
 git add file1.txt
 # stage the file or the folder
 
@@ -27,12 +35,6 @@ git add file.txt renameFile.txt
 
 # rename and stage the file at once
 git mv file.txt renameFile.txt
-
-echo "filename.txt" >> .gitignore
-# create a .gitignore file to list the files no need to be tracked
-#   like ".DS_Store" and packages folder like "node_modules/"
-# for template, go to http://gitignore.io/
-
 
 git rm --cached new.txt
 # remove the file at stage(local file is intact)

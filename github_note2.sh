@@ -1,6 +1,6 @@
 git fetch origin branch_name
 # dowload the files from remote repo origin
-# if no branch name, master brnach in the remote repo will be downloaded
+# if no branch name, master branch in the remote repo will be downloaded
 # a new branch will be created at remote branch(type of branch, but not the branch at the remote repo)
 
 git branch -r
