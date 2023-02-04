@@ -1,3 +1,10 @@
+git diff branch..branch2
+# compare the difference of the 2 branches
+git diff branch1 branch2
+# this does the same work.
+# diff can also work on commit comparison with commit id
+
+# git reset is more like going to the specific commit status instead of resetting
 git reset HEAD^
 # go one step back of the last commit
 
@@ -14,9 +21,6 @@ git reset --hard HEAD^
 # --soft made no change
 # --hard changed on both stage and working directory
 
-
-git diff branch..branch2
-# compare the difference of the 2 branches
-git diff branch1 branch2
-# this does the same work.
-# diff can also work on commit comparison with commit id
+git reflog
+# show the SHA-1 value of history git command
+# useful to find the commits lost in the git log after git reset
