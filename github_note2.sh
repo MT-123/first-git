@@ -15,3 +15,10 @@ git branch -rd branch_name
 git pull origin branch_name
 # fetch and merge to the current branch
 # pull = fetch + merge
+
+git rebase remote_branch_name
+# rebase current branch to the remote branch 
+
+git rebase
+# rebase the current branch to the corresponding remote branch(after fetch)
+

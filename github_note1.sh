@@ -10,6 +10,11 @@ git push -u origin local_branch
 
 git push origin :branch_name
 # push with deleting the branch at remote repo
+git push -d origin branch_name
+# the same work
+
+git push
+# push the currrent branch to remote branch
 
 git remote -v
 # check remote repo name and url

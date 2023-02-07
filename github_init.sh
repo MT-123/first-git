@@ -46,7 +46,7 @@ git push -u origin main
 
 # === move existing project to github===
 # 1. first go to github and create a repository and nothing inside
-# 2. (at local)create a .gitignore file
+# 2. check the .gitignore properly lists the files not to be tracked
 
 # cd to the root folder of the project
 git init -b main
