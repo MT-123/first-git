@@ -16,9 +16,9 @@ git pull origin branch_name
 # fetch and merge to the current branch
 # pull = fetch + merge
 
-git rebase remote_branch_name
+git pull --rebase
 # rebase current branch to the remote branch 
+# recommended for just pull which cause merge commit and make too many lines
 
 git rebase
 # rebase the current branch to the corresponding remote branch(after fetch)
-

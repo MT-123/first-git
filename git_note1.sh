@@ -61,10 +61,17 @@ git branch -d branch_name
 
 git merge branch_name
 # merge the branch to current branch
+# usual case:
+# current branch = major branch, branch_name = small branch
+git merge --no-ff branch_name
+# merge the branch without fast forward
+# it will create a commit for the merge
 
 git rebase branch_name
 # rebase the branch
 # no recommended for using on public branch
+# usual case:
+# current branch = small branch, branch_name = major branch
 
 git log
 # show the commit log
